@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  {% block content_header %}
+    <h2>Zdjęcia z opisem</h2>
+    <p>
+      <a href="{% url 'upload_photo' %}" class="btn btn-primary">Dodaj plik</a>
+    </p>
+  {% endblock %}
+
+  <table class="table mb-0">
+    <thead>
+      <tr>
+        <th>Oryginał</th>
+        <th>Imię</th>
+        <th>Nazwisko</th>
+        <th>Opis</th>
+        <th>Pobierz</th>
+        <th>Usuń</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for photo in photos %}
+        <tr>
+          <td>
+            {% if photo.original %}
+              <img src="{{ photo.original.url }}" alt="{{ photo.name }}" style="width:100px;">
+            {% else %}
+              <span class="text-muted">Brak zdjęcia</span>
+            {% endif %}
+          </td>
+          <td>{{ photo.name }}</td>
+          <td>{{ photo.surname }}</td>
+          <td>{{ photo.description }}</td>
+          <td>
+            <a href="{{ photo.pdf.url }}" class="btn btn-primary btn-sm" target="_blank">
+              Pobierz PDF
+            </a>
+          </td>
+          <td>
+            <form method="post" action="{% url 'delete_photo' photo.pk %}">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-danger btn-sm">Usuń</button>
+            </form>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

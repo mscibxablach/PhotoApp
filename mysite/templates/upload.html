@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Zdjęcia</h2>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="document">
+    <button type="submit">Dodaj plik</button>
+  </form>
+  {% if url %}
+      wyswietla link z plikiem w ktory mozna kliknac i wyswietli zdjecie
+    <p>Uploaded file: <a href="{{ url }}">{{ url }}</a></p>
+  {% endif %}
+{% endblock %}
