@@ -4,6 +4,7 @@ from django.core.files.storage import FileSystemStorage
 from io import BytesIO
 from reportlab.pdfgen import canvas
 from django.http import HttpResponse
+from reportlab.lib.utils import ImageReader
 
 from .forms import PhotoForm, WithoutDBPhotoForm
 from .models import Photo
@@ -54,7 +55,7 @@ def delete_photo(request, pk):
 
 
 # TO DO - ma pobierać dane z formularza i wpychać je do PDFa i potem wypluwać PDFa
-def some_view(request, name, surname, description):
+def some_view(request, name, surname, description, photo):
 
     # Create the HttpResponse object with the appropriate PDF headers.
     response = HttpResponse(content_type='application/pdf')
@@ -66,12 +67,14 @@ def some_view(request, name, surname, description):
     # Create the PDF object, using the BytesIO object as its "file."
     p = canvas.Canvas(buffer)
 
+    # wczytywanie zdjęcia które zostaje niżej przekazane do narysowania na PDF'ie
+    image = ImageReader(photo)
+
     # Draw things on the PDF. Here's where the PDF generation happens.
     # See the ReportLab documentation for the full list of functionality.
     p.drawString(30, 800, name + " " + surname)
     p.drawString(30, 770, description)
-    # p.drawImage(photo, 80, 30)
-
+    p.drawImage(image, 10, 10, mask='auto')
 
     # Close the PDF object cleanly.
     p.showPage()
@@ -89,8 +92,8 @@ def upload_photo_without_DB(request):
     if request.method == 'POST':     # if this is a POST request we need to process the form data
         form = WithoutDBPhotoForm(request.POST, request.FILES)     # create a form instance and populate it with data from the request:
         if form.is_valid():
-            # return redirect('photo_list') form.files['photo']
-            return some_view(request, form.cleaned_data['name'], form.cleaned_data['surname'], form.cleaned_data['description'])
+            # return redirect('photo_list')
+            return some_view(request, form.cleaned_data['name'], form.cleaned_data['surname'], form.cleaned_data['description'], form.cleaned_data['photo'])
 
     else:
         form = WithoutDBPhotoForm()

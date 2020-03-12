@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c5238e-c223-432a-a577-a3b6118e72b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/201910081721590004.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/201910091025030004.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/201910111007020005.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/morphology_test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/morphology_test_6yjmNLa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/morphology_test_ENkQXZc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/morphology_test_R4QtYYd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/201910070919060002.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/201910081721590004.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/201910081721590004_hAoYup5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/201910101646160009.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/201910141522440003.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/201910210850230002.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/201910221030170004.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_1bo2owz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_914N5R6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_GWy7vf4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_OD9rV3b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_S4tx8Jq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_xuTb1JB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910081721590004.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910091047260006.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910141522440003.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910141606430008.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910141606430008_8jCG5v4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910141606430008_jczhVBr.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/ACERT.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/HDopracowanie.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan_6P4d63p.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan_h3dcCLw.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan_lOtw5Ps.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan_o9gDts5.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/core/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/photo_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/photo_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-end-line="93" />
+            <state relative-caret-position="447">
+              <caret line="100" column="20" lean-forward="true" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -136,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/core/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="44" />
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -566,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/upload_photo_without_DB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/templates/photo_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -594,16 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-end-line="93" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/core/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -617,9 +561,26 @@
     <entry file="file://$PROJECT_DIR$/mysite/core/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="44" />
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/upload_photo_without_DB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="100" column="20" lean-forward="true" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
