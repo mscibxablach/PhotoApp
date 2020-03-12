@@ -38,6 +38,7 @@ def upload_photo(request):
         if form.is_valid():
             form.save()
             return redirect('photo_list')
+
     else:
         form = PhotoForm()
     return render(request, 'upload_photo.html', {
@@ -52,24 +53,13 @@ def delete_photo(request, pk):
     return redirect('photo_list')
 
 
-def upload_photo_without_DB(request):
-    context = {}
-    if request.method == 'POST':     # if this is a POST request we need to process the form data
-        form = WithoutDBPhotoForm(request.POST)     # create a form instance and populate it with data from the request:
-        if form.is_valid():
-            return redirect('photo_list')
-
-    else: # if a GET (or any other method) we'll create a blank form
-        form = WithoutDBPhotoForm()
-    return render(request, 'upload_photo_without_DB.html', {
-        'form': form
-    })
-
-
+# TO DO - ma pobierać dane z formularza i wpychać je do PDFa i potem wypluwać PDFa
 def some_view(request, name, surname, description):
+
     # Create the HttpResponse object with the appropriate PDF headers.
     response = HttpResponse(content_type='application/pdf')
-    response['Content-Disposition'] = 'attachment; filename="somefilename.pdf"'
+    filename = name + "_" + surname + ".pdf"
+    response['Content-Disposition'] = 'attachment; filename= "%s"' % filename
 
     buffer = BytesIO()
 
@@ -78,7 +68,10 @@ def some_view(request, name, surname, description):
 
     # Draw things on the PDF. Here's where the PDF generation happens.
     # See the ReportLab documentation for the full list of functionality.
-    p.drawString(100, 100, name)
+    p.drawString(30, 800, name + " " + surname)
+    p.drawString(30, 770, description)
+    # p.drawImage(photo, 80, 30)
+
 
     # Close the PDF object cleanly.
     p.showPage()
@@ -89,3 +82,20 @@ def some_view(request, name, surname, description):
     buffer.close()
     response.write(pdf)
     return response
+
+
+def upload_photo_without_DB(request):
+    context = {}
+    if request.method == 'POST':     # if this is a POST request we need to process the form data
+        form = WithoutDBPhotoForm(request.POST, request.FILES)     # create a form instance and populate it with data from the request:
+        if form.is_valid():
+            # return redirect('photo_list') form.files['photo']
+            return some_view(request, form.cleaned_data['name'], form.cleaned_data['surname'], form.cleaned_data['description'])
+
+    else:
+        form = WithoutDBPhotoForm()
+    return render(request, 'upload_photo_without_DB.html', {
+        'form': form
+    })
+
+

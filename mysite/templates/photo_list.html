@@ -24,8 +24,8 @@
       {% for photo in photos %}
         <tr>
           <td>
-            {% if photo.original %}
-              <img src="{{ photo.original.url }}" alt="{{ photo.name }}" style="width:100px;">
+            {% if photo.pdf %}
+              <img src="{{ photo.pdf.url }}" alt="{{ photo.name }}" style="width:100px;">
             {% else %}
               <span class="text-muted">Brak zdjęcia</span>
             {% endif %}

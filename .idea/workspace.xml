@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3c5238e-c223-432a-a577-a3b6118e72b0" name="Default" comment="" />
+    <list default="true" id="d3c5238e-c223-432a-a577-a3b6118e72b0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/201910081721590004.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/201910091025030004.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/201910111007020005.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/morphology_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/morphology_test_6yjmNLa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/morphology_test_ENkQXZc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/morphology_test_R4QtYYd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/201910070919060002.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/201910081721590004.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/201910081721590004_hAoYup5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/201910101646160009.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/201910141522440003.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/201910210850230002.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/201910221030170004.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_1bo2owz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_914N5R6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_GWy7vf4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_OD9rV3b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_S4tx8Jq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/original/morphology_test_xuTb1JB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910081721590004.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910091047260006.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910141522440003.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910141606430008.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910141606430008_8jCG5v4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/201910141606430008_jczhVBr.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/ACERT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/HDopracowanie.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan_6P4d63p.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan_h3dcCLw.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan_lOtw5Ps.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/pdfs/Plan_o9gDts5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/core/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/photo_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/photo_list.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="286">
+              <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-end-line="93" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -45,11 +86,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/core/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -57,26 +112,8 @@
       <file leaf-file-name="upload_photo_without_DB.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/upload_photo_without_DB.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+            <state relative-caret-position="210">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -84,8 +121,8 @@
       <file leaf-file-name="photo_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/photo_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state relative-caret-position="420">
+              <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -99,6 +136,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/core/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="upload_photo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/upload_photo.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,23 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/core/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/core/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="120">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -140,6 +177,9 @@
       <dir>$PROJECT_DIR$/mysite/templates</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -150,16 +190,16 @@
         <option value="$PROJECT_DIR$/mysite/templates/class_book_list.html" />
         <option value="$PROJECT_DIR$/mysite/templates/book_list.html" />
         <option value="$PROJECT_DIR$/mysite/templates/upload_book.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/photo_list.html" />
         <option value="$PROJECT_DIR$/mysite/templates/upload_photo.html" />
-        <option value="$PROJECT_DIR$/mysite/core/models.py" />
         <option value="$PROJECT_DIR$/mysite/templates/name.html" />
-        <option value="$PROJECT_DIR$/mysite/core/forms.py" />
         <option value="$PROJECT_DIR$/mysite/templates/upload_photo_without_DB.html" />
         <option value="$PROJECT_DIR$/mysite/templates/upload.html" />
         <option value="$PROJECT_DIR$/mysite/templates/base.html" />
         <option value="$PROJECT_DIR$/mysite/templates/home.html" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/photo_list.html" />
+        <option value="$PROJECT_DIR$/mysite/core/models.py" />
+        <option value="$PROJECT_DIR$/mysite/core/forms.py" />
         <option value="$PROJECT_DIR$/mysite/core/views.py" />
       </list>
     </option>
@@ -179,17 +219,30 @@
     <option name="width" value="950" />
     <option name="height" value="828" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="django-upload-example-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="django-upload-example-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example-master" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example-master" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="photos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="django-upload-example-master" type="b2602c69:ProjectViewProjectNode" />
@@ -206,13 +259,18 @@
               <item name="django-upload-example-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="django-upload-example-master" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,11 +344,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2921212" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29090908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -313,6 +371,82 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/upload_photo_without_DB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/photo_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/upload_photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -372,18 +506,8 @@
     <entry file="file://$PROJECT_DIR$/mysite/templates/upload_book.html" />
     <entry file="file://$PROJECT_DIR$/mysite/templates/book_list.html" />
     <entry file="file://$PROJECT_DIR$/mysite/templates/class_book_list.html" />
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/core/migrations/0002_book_cover.py" />
     <entry file="file://$PROJECT_DIR$/mysite/core/migrations/__init__.py">
@@ -396,25 +520,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/core/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/core/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/core/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1b89f303-6939-42a3-bb14-6b5a291341ac/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/core/tests.py">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/core/models.py">
+    <entry file="file://$PROJECT_DIR$/mysite/core/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="375">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -425,17 +566,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/upload_photo_without_DB.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        <state relative-caret-position="210">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/photo_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="420">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -448,41 +589,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/photo_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/upload_photo_without_DB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/core/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="286">
+          <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-end-line="93" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
