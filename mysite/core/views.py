@@ -4,10 +4,17 @@ from django.core.files.storage import FileSystemStorage
 from io import BytesIO
 from reportlab.pdfgen import canvas
 from django.http import HttpResponse
-
+from PIL import Image
+import numpy as np
+import cv2
 from .forms import PhotoForm, WithoutDBPhotoForm
 from .models import Photo
-
+from mysite.utils.image_utils import ImageUtils
+from mysite.plot_cutter.plot_recognizer import PlotRecognizer
+from mysite.plot_cutter.plot_cutter import  PlotCutter
+from mysite.services.plot_bound_service import PlotBoundService
+from mysite.plot_bound_detector.ImageProcessor import ImageProcessor
+from mysite.plot_bound_detector.PlotBoundDetector import PlotBoundDetector
 
 class Home(TemplateView):
     template_name = 'home.html'
@@ -89,6 +96,17 @@ def upload_photo_without_DB(request):
     if request.method == 'POST':     # if this is a POST request we need to process the form data
         form = WithoutDBPhotoForm(request.POST, request.FILES)     # create a form instance and populate it with data from the request:
         if form.is_valid():
+            photo_bytes = form.cleaned_data['photo'].read()
+            photo = ImageUtils.convert_inmemory_file_to_cv2_image(photo_bytes)
+            plot_recgonizer = PlotRecognizer()
+
+            plot_cutter = PlotCutter(plot_recgonizer)
+            image_processor = ImageProcessor()
+            plot_bound_detector = PlotBoundDetector(image_processor)
+            plot_bound_service = PlotBoundService(plot_bound_detector)
+
+            result = plot_cutter.cut_plot(photo)
+            top, bottom, ratio = plot_bound_service.get_plot_bound_ratio(result)
             # return redirect('photo_list') form.files['photo']
             return some_view(request, form.cleaned_data['name'], form.cleaned_data['surname'], form.cleaned_data['description'])
 
